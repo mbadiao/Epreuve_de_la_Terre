@@ -5,7 +5,7 @@
 
 function FileName() {
     if (process.argv.length != 2) {
-        console.log("Veullez saisir juste  le nom de fichier")
+        console.log("Veuillez saisir juste  le nom de fichier")
         return
     }
     let result = "";

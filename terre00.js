@@ -8,6 +8,7 @@ function  PrintAlphabet() {
         Alphabet += String.fromCharCode(i);
     }
     console.log(Alphabet);
+    console.log('\n');
 }
 
 PrintAlphabet();

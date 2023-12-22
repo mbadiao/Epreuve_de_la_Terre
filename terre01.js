@@ -12,7 +12,7 @@ function FileName() {
     // on prend l'argument qui nous donne le chemin absolue
     const argument = process.argv[1];
     //n le parcoure en l'envers et on arret la bloucle si on a un slash / ou un anti slash \
-    for (let j = argument.length - 1; j > 0; j--) {
+    for (let j = argument.length - 1; j >= 0; j--) {
        const caractere = argument[j];
        if (caractere == '/' || caractere == '\\') {
         break

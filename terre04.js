@@ -14,7 +14,7 @@ function EvenOrOdd(){
     value = Number(arg);
     if (Number.isInteger(value)) {
         //verifie si toute la sequence est valide (1..9)
-            valueResult = isEvenOrOdd(value);
+            valueResult = isEvenOrOdvalueResultd(value);
             console.log(valueResult);
             return
     }
